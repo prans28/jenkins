@@ -12,4 +12,9 @@ public class JenkinsController {
 		return "2929929" ; 
 	}
 
+	@GetMapping("/get-pages")
+	public String m2() {
+		return "2929929j" ; 
+	}
+
 }
