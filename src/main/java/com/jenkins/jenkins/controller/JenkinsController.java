@@ -29,8 +29,9 @@ public class JenkinsController {
 		return "2929929j" ; 
 	}
 
-	@GetMapping("/get-papage")
-    public  String m4(){
+		@GetMapping("/get-papage")
+        public String m4(){
+		System.out.print("this is working");
 		return "29292929"; 
 	}
 }
