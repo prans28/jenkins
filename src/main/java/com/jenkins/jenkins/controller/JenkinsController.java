@@ -29,4 +29,8 @@ public class JenkinsController {
 		return "2929929j" ; 
 	}
 
+	@GetMapping("/get-papage")
+    public  String m4(){
+		return "29292929"; 
+	}
 }
