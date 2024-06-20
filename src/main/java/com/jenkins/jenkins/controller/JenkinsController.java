@@ -31,6 +31,11 @@ public class JenkinsController {
 
 	@GetMapping("/get-papage")
     public  String m4(){
+		System.out.print("this is working");
+		System.out.print("this is working");
+		System.out.print("this is working");
+            int a = 29; 
+			int b = a; 
 		return "29292929"; 
 	}
 }
